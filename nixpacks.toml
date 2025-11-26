@@ -1,0 +1,11 @@
+[phases.build]
+nixPkgs = ['python311', 'gcc', 'g++']  # Compiler buat grpcio
+
+[[phases.build.commands]]
+cmd = "pip install --no-cache-dir -r requirements.txt"
+
+[phases.setup]
+nixPkgs = ['python311']
+
+[start]
+cmd = "python trainbot.py"
