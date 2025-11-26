@@ -8,7 +8,7 @@ from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 
 # Ambil dari Railway Environment Variables
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7260363453:AAHkl23HlxDZxpIeTPI-L0NsNbgbNnxogzM")
 STABILITY_API_KEY = os.getenv("STABILITY_KEY")
 
 logging.basicConfig(level=logging.INFO)
