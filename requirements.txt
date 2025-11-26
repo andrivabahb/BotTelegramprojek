@@ -1,2 +1,2 @@
 python-telegram-bot==20.8
-stability-sdk
+stability-sdk==0.8.6  # Versi terbaru, lebih stabil
